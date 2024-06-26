@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TextGuard</string>
+    <string name="dashboard_fragment">Dashboard Fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="notifications_fragment">Notifications Fragment</string>
+    <string name="debug_fragment"></string>
+    <string name="home">Home</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="notifications">Notifications</string>
+    <string name="debug">Debug</string>
+    <string name="emergency_contacts">Emergency contacts</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/debug_fragment"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/button_check_permission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Permission"
+        android:onClick="checkPermission"/> <!-- Assicurati che questo attributo sia presente -->
+    <Button
+        android:id="@+id/btn_read_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read SMS" />
+    <Button
+        android:id="@+id/btn_read_call_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read Call Log" />
+    <Button
+        android:id="@+id/btn_read_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read Contacts" />
+    <Button
+        android:id="@+id/button_send_logs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Logs"/>
+</LinearLayout>

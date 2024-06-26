@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/dashboard" />
+    <item
+        android:id="@+id/navigation_warning"
+        android:icon="@drawable/ic_warning"
+        android:title="Warnings" />
+    <item
+        android:id="@+id/navigation_contacts"
+        android:icon="@drawable/ic_contacts"
+        android:title="Friend List" />
+    <item
+        android:id="@+id/navigation_debug"
+        android:icon="@drawable/ic_debug"
+        android:title="@string/debug" />
+</menu>
